@@ -218,4 +218,5 @@ Architecture diagram of the application.
 
 ### Optimization
 For optimization of space and startup speed, we use the alpine base image (~5MB space).  
-Also, instead of starting a shell (such as `bash`) when using CMD, we pass the list of arguments directly which decreases the overhead.
+Also, instead of starting a shell (such as `bash`) when using CMD, we pass the list of arguments directly which decreases the overhead.  
+We also pass the `--no-cache-dir` argument to pip to not store unnecessary cache files.
