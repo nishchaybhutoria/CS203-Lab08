@@ -1,2 +1,245 @@
-# CS203-Lab08
-CS 203 Lab 08 Sem II, 2024-24
+# Lab 08: Dockerized AI App Architecture - Image Descriptions
+
+### Create frontend vm
+![create-frontend-vm-1.png](images/create-frontend-vm-1.png)
+Creating the frontend VM on Google Cloud Platform (GCP).
+
+### Create frontend vm
+![create-frontend-vm-2.png](images/create-frontend-vm-2.png)
+Creating the frontend VM on Google Cloud Platform (GCP).
+
+### Create frontend vm
+![create-frontend-vm-3.png](images/create-frontend-vm-3.png)
+Creating the frontend VM on Google Cloud Platform (GCP).
+
+### Create backend vm
+![create-backend-vm-1.png](images/create-backend-vm-1.png)
+Creating the backend VM on GCP.
+
+### Create backend vm
+![create-backend-vm-2.png](images/create-backend-vm-2.png)
+Creating the backend VM on GCP.
+
+### Create backend vm
+![create-backend-vm-3.png](images/create-backend-vm-3.png)
+Creating the backend VM on GCP.
+
+### Vm creation done
+![vm-creation-done.png](images/vm-creation-done.png)
+Both VMs successfully created.
+
+### Accessing vm via ssh
+![accessing-vm-via-ssh.png](images/accessing-vm-via-ssh.png)
+Accessing the VM using SSH from the browser.
+
+### Creating frontend vm files
+![creating-frontend-vm-files.png](images/creating-frontend-vm-files.png)
+Creating required files for the frontend container.
+
+### Frontend dockerfile
+![frontend-dockerfile.png](images/frontend-dockerfile.png)
+Dockerfile used for the frontend FastAPI app.
+
+### Frontend main
+![frontend-main.png](images/frontend-main.png)
+Frontend FastAPI app's main.py file.
+
+### Frontend requirements
+![frontend-requirements.png](images/frontend-requirements.png)
+Requirements file for the frontend FastAPI app.
+
+### Frontend docker installation
+![frontend-docker-installation-1.png](images/frontend-docker-installation-1.png)
+Installing Docker on the frontend VM.
+
+### Frontend docker installation
+![frontend-docker-installation-2.png](images/frontend-docker-installation-2.png)
+Installing Docker on the frontend VM.
+
+### Backend main
+![backend-main-1.png](images/backend-main-1.png)
+Backend FastAPI app's main.py file.
+
+### Backend main
+![backend-main-2.png](images/backend-main-2.png)
+Backend FastAPI app's main.py file.
+
+### Backend files dockerfile requirements
+![backend-files-dockerfile-requirements.png](images/backend-files-dockerfile-requirements.png)
+Dockerfile and requirements for backend container.
+
+### Backend docker installation
+![backend-docker-installation-1.png](images/backend-docker-installation-1.png)
+Installing Docker on the backend VM.
+
+### Backend docker installation
+![backend-docker-installation-2.png](images/backend-docker-installation-2.png)
+Installing Docker on the backend VM.
+
+### Building frontend image
+![building-frontend-image.png](images/building-frontend-image.png)
+Building the Docker image for the frontend app.
+
+### Building backend image and network
+![building-backend-image-and-network.png](images/building-backend-image-and-network.png)
+Creating Docker network and building backend image.
+
+### Firewall page
+![firewall-page.png](images/firewall-page.png)
+Firewall rules page on GCP.
+
+### Allow fastapi frontend
+![allow-fastapi-frontend-1.png](images/allow-fastapi-frontend-1.png)
+Creating firewall rule to allow public access to frontend.
+
+### Allow fastapi frontend
+![allow-fastapi-frontend-2.png](images/allow-fastapi-frontend-2.png)
+Creating firewall rule to allow public access to frontend.
+
+### Allow frontend to backend
+![allow-frontend-to-backend-1.png](images/allow-frontend-to-backend-1.png)
+Creating firewall rule to allow frontend VM to access backend.
+
+### Allow frontend to backend
+![allow-frontend-to-backend-2.png](images/allow-frontend-to-backend-2.png)
+Creating firewall rule to allow frontend VM to access backend.
+
+### Firewall rule creation done
+![firewall-rule-creation-done.png](images/firewall-rule-creation-done.png)
+All firewall rules successfully configured.
+
+### Running elasticsearch
+![running-elasticsearch.png](images/running-elasticsearch.png)
+Running the Elasticsearch container.
+
+### Running backend
+![running-backend.png](images/running-backend.png)
+Running the backend container.
+
+### Running frontend
+![running-frontend.png](images/running-frontend.png)
+Running the frontend container.
+
+### Netstat backend
+![netstat-backend.png](images/netstat-backend.png)
+Verifying open ports in backend VM using netstat.
+
+### Netstat frontend
+![netstat-frontend.png](images/netstat-frontend.png)
+Verifying open ports in frontend VM using netstat.
+
+### Frontend page global access
+![frontend-page-global-access.png](images/frontend-page-global-access.png)
+Accessing the frontend page from the browser.
+
+### Example get query
+![example-get-query.png](images/example-get-query.png)
+Performing a GET query from frontend.
+
+### Example not exist
+![example-not-exist.png](images/example-not-exist.png)
+Querying something that doesn't exist.
+
+### Inserting nonexistent
+![inserting-nonexistent.png](images/inserting-nonexistent.png)
+Inserting a new document using frontend.
+
+### Querying now existing
+![querying-now-existing.png](images/querying-now-existing.png)
+Searching the document just inserted.
+
+### Removing frontend
+![removing-frontend.png](images/removing-frontend.png)
+Removing the frontend container.
+
+### Removing backend and elasticsearch
+![removing-backend-and-elasticsearch.png](images/removing-backend-and-elasticsearch.png)
+Removing backend and Elasticsearch containers.
+
+### Running frontend
+![rerunning-frontend.png](images/rerunning-frontend.png)
+Running the frontend container.
+
+### Running backend
+![rerunning-backend-and-elasticsearch.png](images/rerunning-backend-and-elasticsearch.png)
+Running the backend container.
+
+### Persistent proof
+![persistent-proof.png](images/persistent-proof.png)
+Verifying data persistence after container removal.
+
+### Running images frontend
+![running-images-frontend.png](images/running-images-frontend.png)
+Docker image for frontend after build.
+
+### Running images backend
+![running-images-backend.png](images/running-images-backend.png)
+Docker image for backend after build.
+
+### Running inspect frontend
+![running-inspect-frontend-1.png](images/running-inspect-frontend-1.png)
+Docker inspect output for frontend container.
+
+### Running inspect frontend
+![running-inspect-frontend-2.png](images/running-inspect-frontend-2.png)
+Docker inspect output for frontend container.
+
+### Running inspect frontend
+![running-inspect-frontend-3.png](images/running-inspect-frontend-3.png)
+Docker inspect output for frontend container.
+
+### Running inspect frontend
+![running-inspect-frontend-4.png](images/running-inspect-frontend-4.png)
+Docker inspect output for frontend container.
+
+### Running inspect es
+![running-inspect-es-1.png](images/running-inspect-es-1.png)
+Docker inspect output for Elasticsearch container.
+
+### Running inspect es
+![running-inspect-es-2.png](images/running-inspect-es-2.png)
+Docker inspect output for Elasticsearch container.
+
+### Running inspect es
+![running-inspect-es-3.png](images/running-inspect-es-3.png)
+Docker inspect output for Elasticsearch container.
+
+### Running inspect es
+![running-inspect-es-4.png](images/running-inspect-es-4.png)
+Docker inspect output for Elasticsearch container.
+
+### Running inspect es
+![running-inspect-es-5.png](images/running-inspect-es-5.png)
+Docker inspect output for Elasticsearch container.
+
+### Running inspect backend
+![running-inspect-backend-1.png](images/running-inspect-backend-1.png)
+Docker inspect output for backend container.
+
+### Running inspect backend
+![running-inspect-backend-2.png](images/running-inspect-backend-2.png)
+Docker inspect output for backend container.
+
+### Running inspect backend
+![running-inspect-backend-3.png](images/running-inspect-backend-3.png)
+Docker inspect output for backend container.
+
+### Running inspect backend
+![running-inspect-backend-4.png](images/running-inspect-backend-4.png)
+Docker inspect output for backend container.
+
+### Running inspect backend
+![running-inspect-backend-5.png](images/running-inspect-backend-5.png)
+Docker inspect output for backend container.
+
+### Running inspect network
+![running-inspect-network.png](images/running-inspect-network.png)
+Inspecting the custom Docker network used.
+
+### Hub frontend
+![hub-frontend.png](images/hub-frontend.png)
+Docker Hub page showing pushed frontend image.
+
+### Hub backend
+![hub-backend.png](images/hub-backend.png)
+Docker Hub page showing pushed backend image.
