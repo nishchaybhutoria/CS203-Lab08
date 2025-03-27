@@ -197,7 +197,7 @@ Docker inspect output for backend container.
 Inspecting the custom Docker network used.
 
 ### Hub frontend
-![hub-frontend.png](images/hub-frontend.png)
+![hub-frontend.png](images/hub-frontend.png)  
 Docker Hub page with pushed frontend image.
 
 ### Hub backend
