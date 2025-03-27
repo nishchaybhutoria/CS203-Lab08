@@ -40,11 +40,7 @@ Requirements file for the frontend FastAPI app.
 
 ### Frontend docker installation
 ![frontend-docker-installation-1.png](images/frontend-docker-installation-1.png)
-Installing Docker on the frontend VM.
-
-### Frontend docker installation
 ![frontend-docker-installation-2.png](images/frontend-docker-installation-2.png)
-Installing Docker on the frontend VM.
 
 ### Backend main
 Backend FastAPI app's main.py file.
@@ -74,14 +70,14 @@ Creating Docker network and building backend image.
 ![firewall-page.png](images/firewall-page.png)
 Firewall rules page on GCP.
 
-### Allow fastapi frontend
-Creating firewall rule to allow public access to frontend.
+### Allow public access to fastapi frontend
+Creating firewall rule to allow public access to the frontend.
 
 ![allow-fastapi-frontend-1.png](images/allow-fastapi-frontend-1.png)
 ![allow-fastapi-frontend-2.png](images/allow-fastapi-frontend-2.png)
 
-### Allow frontend to backend
-Creating firewall rule to allow frontend VM to access backend.
+### Allow frontend to access backend
+Creating firewall rule to allow the frontend VM to access the backend.
 
 ![allow-frontend-to-backend-1.png](images/allow-frontend-to-backend-1.png)
 ![allow-frontend-to-backend-2.png](images/allow-frontend-to-backend-2.png)
