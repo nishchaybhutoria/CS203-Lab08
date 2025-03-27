@@ -215,3 +215,7 @@ Docker Hub tags for the images.
 ### Architecture diagram
 ![architecture-diagram.png](images/architecture-diagram.png)
 Architecture diagram of the application.
+
+### Optimization
+For optimization of space and startup speed, we use the alpine base image (~5MB space).  
+Also, instead of starting a shell (such as `bash`) when using CMD, we pass the list of arguments directly which decreases the overhead.
