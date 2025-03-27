@@ -203,3 +203,7 @@ Docker Hub page showing pushed frontend image.
 ### Hub backend
 ![hub-backend.png](images/hub-backend.png)
 Docker Hub page showing pushed backend image.
+
+### Architecture diagram
+![architecture-diagram.png](images/architecture-diagram.png)
+Architecture diagram of the application.
