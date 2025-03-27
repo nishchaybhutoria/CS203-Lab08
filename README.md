@@ -124,7 +124,7 @@ Inserting a new document using frontend.
 
 ### Query new document
 ![querying-now-existing.png](images/querying-now-existing.png)
-Searching the document just inserted.
+Searching the document that was just inserted.
 
 ### Removing frontend
 ![removing-frontend.png](images/removing-frontend.png)
@@ -132,7 +132,7 @@ Removing the frontend container.
 
 ### Removing backend and elasticsearch
 ![removing-backend-and-elasticsearch.png](images/removing-backend-and-elasticsearch.png)
-Removing backend and Elasticsearch containers.
+Removing backend and elasticsearch containers.
 
 ### Running frontend
 ![rerunning-frontend.png](images/rerunning-frontend.png)
@@ -140,7 +140,7 @@ Running the frontend container.
 
 ### Running backend
 ![rerunning-backend-and-elasticsearch.png](images/rerunning-backend-and-elasticsearch.png)
-Running the backend container.
+Running the backend and elasticsearch containers.
 
 ### Documents are persistent
 ![persistent-proof.png](images/persistent-proof.png)
@@ -162,6 +162,7 @@ Docker inspect output for frontend container.
 ![running-inspect-frontend-3.png](images/running-inspect-frontend-3.png)
 ![running-inspect-frontend-4.png](images/running-inspect-frontend-4.png)
 
+### Running inspect elasticsearch
 Docker inspect output for elasticsearch container.
 
 ![running-inspect-es-1.png](images/running-inspect-es-1.png)
