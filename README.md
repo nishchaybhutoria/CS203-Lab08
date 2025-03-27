@@ -159,23 +159,14 @@ Docker image for frontend after build.
 Docker image for backend after build.
 
 ### Running inspect frontend
+Docker inspect output for frontend container.
+
 ![running-inspect-frontend-1.png](images/running-inspect-frontend-1.png)
-Docker inspect output for frontend container.
-
-### Running inspect frontend
 ![running-inspect-frontend-2.png](images/running-inspect-frontend-2.png)
-Docker inspect output for frontend container.
-
-### Running inspect frontend
 ![running-inspect-frontend-3.png](images/running-inspect-frontend-3.png)
-Docker inspect output for frontend container.
-
-### Running inspect frontend
 ![running-inspect-frontend-4.png](images/running-inspect-frontend-4.png)
-Docker inspect output for frontend container.
 
-### Running inspect elasticsearch
-Docker inspect output for Elasticsearch container.
+Docker inspect output for elasticsearch container.
 
 ![running-inspect-es-1.png](images/running-inspect-es-1.png)
 ![running-inspect-es-2.png](images/running-inspect-es-2.png)
