@@ -3,7 +3,7 @@
 ### Create frontend vm
 Creating the frontend VM on Google Cloud Platform (GCP).
 
-![create-frontend-vm-1.png](images/create-frontend-vm-1.png
+![create-frontend-vm-1.png](images/create-frontend-vm-1.png)
 ![create-frontend-vm-2.png](images/create-frontend-vm-2.png)
 ![create-frontend-vm-3.png](images/create-frontend-vm-3.png)
 
@@ -213,8 +213,8 @@ Docker Hub dashboard with the images.
 Docker Hub tags for the images.
 
 ### Architecture diagram
-![architecture-diagram.png](images/architecture-diagram.png)
 Architecture diagram of the application.
+![architecture-diagram.png](images/architecture-diagram.png)
 
 ### Optimization
 For optimization of space and startup speed, we use the alpine base image (~5MB space).  
