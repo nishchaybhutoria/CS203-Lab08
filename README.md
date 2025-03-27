@@ -198,11 +198,19 @@ Inspecting the custom Docker network used.
 
 ### Hub frontend
 ![hub-frontend.png](images/hub-frontend.png)
-Docker Hub page showing pushed frontend image.
+Docker Hub page with pushed frontend image.
 
 ### Hub backend
 ![hub-backend.png](images/hub-backend.png)
-Docker Hub page showing pushed backend image.
+Docker Hub page with pushed backend image.
+
+### Hub dashboard
+![hub-dashboard.png](images/hub-dashboard.png)
+Docker Hub dashboard with the images.
+
+### Hub tags
+![hub-tags.png](images/hub-tags.png)
+Docker Hub tags for the images.
 
 ### Architecture diagram
 ![architecture-diagram.png](images/architecture-diagram.png)
